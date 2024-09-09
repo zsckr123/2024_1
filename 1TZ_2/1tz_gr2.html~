@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Tu wpisz opis zawartości strony">
+	<title>Strona 1TZ gr 2</title>
+</head>
+<body>
+
+<table border="1">
+<tr>
+	<td rowspan="2">1</td>	<td>2</td> <td>5</td> <td>6</td>
+</tr>
+<tr>
+	<td>3</td>	<td colspan="2">4</td> 
+</tr>
+</table>
+
+
+<table border="2">
+<tr>
+	<th colspan="2">Nazwisko i imie</th>	<th>Wiek</th> 
+</tr>
+<tr>
+	<td>Zielony</td>	<td >Piotr</td> <td >34</td> 
+</tr>
+<tr>
+	<td>Zielony</td>	<td >Piotr</td> <td >34</td> 
+</tr>
+<tr>
+	<td>Zielony</td>	<td >Piotr</td> <td >34</td> 
+</tr>
+</table>
+<table  border="3">
+<tr>
+<td>Składniki na ciasto</td> 
+<td>
+<ol>
+<li> 2 jajka</li>
+<li> mąka</li>
+<li> mleko</li>
+</ol>
+
+<table  border="3">
+<tr>
+<td>Składniki na nalesniki</td> 
+<td>
+<ul>
+<li> 4 jajka</li>
+<li> mąka</li>
+<li> mleko</li>
+</ul>
+</td>
+</td>
+</tr>
+</table>
+<p><a href="https://pl.wikipedia.org/wiki/HTML">Źródło do 
+sformatowania</a></p>
+<p><h3>HTML</h3> <i>(ang. HyperText Markup Language, hipertekstowy
+ język znaczników)</i> – 
+ <a href="https://pl.wikipedia.org/wiki/J%C4%99zyk_znacznik%C3%B3w">
+ język znaczników </a>stosowany 
+ do tworzenia dokumentów <font color="orange">hipertekstowych.</font></p>
+Opis wstępny
+
+<p align="right">HTML pozwala opisać strukturę informacji
+ zawartych wewnątrz strony internetowej, nadając 
+ odpowiednie znaczenie semantyczne poszczególnym
+  fragmentom tekstu – formując hiperłącza, akapity
+  , nagłówki, listy – oraz osadza w tekście dokumentu
+   obiekty plikowe, na przykład multimedia, lub elementy
+    baz danych, na przykład interaktywne formularze danych.</p>
+<p>
+<font color="blue" size="14"><b>HTML</b></font> umożliwia określenie 
+wyglądu dokumentu w przeglądarce internetowej.
+ Do szczegółowego opisu formatowania akapitów, nagłówków,
+  użytych czcionek i kolorów, zalecane jest wykorzystywanie
+   kaskadowych arkuszy stylów (w skrócie CSS).</p> 
+  <p align="center" ><img src="woman.jpg" alt="" width ="250"></p>
+  
+  <p><a href="https://pl.wikipedia.org/wiki/HTML"><img src="woman.jpg" alt="" width ="350"></a></p>
+</body>
+</html>

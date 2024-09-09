@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Tu wpisz opis zawartości strony">
+	<title>1TŻ  grupa 1</title>
+</head>
+<body>
+<h2>Tabele</h2>
+<table border="1" bgcolor="yellow">
+<tr>
+	<td rowspan="2">1</td>	<td>2</td> <td>5</td>
+</tr>
+<tr>
+	<td>3</td>	<td colspan="2">4</td>
+</tr>
+</table>
+Tu <i><b>wpisuje </b></i>się treść 
+<font color="red">strony</font>
+<h1>Tytuł rozdziału</h1>
+<h2>Podrozdział</h2>
+
+<p>HTML <b>pozwala opisać</b> <i>strukturę informacji</i><font color="blue"> <b>zawartych
+ wewnątrz </b></font>
+strony internetowej, 
+nadając odpowiednie znaczenie semantyczne poszczególnym fragmentom tekstu – 
+formując hiperłącza, akapity, nagłówki, listy – oraz osadza w tekście 
+dokumentu obiekty plikowe, na przykład multimedia, lub elementy baz danych,
+ na przykład interaktywne formularze danych. </p>
+ 
+ <h3>Atrybuty</h3>
+<p align="right"><font size="+2" color="orange">Większość atrybutów</font> elementów składa się z par 
+nazwa-wartość, rozdzielonych znakiem „=”, zawartych w znaczniku
+ otwierającym elementu, po jego nazwie. Wartość może być zawarta w 
+ pojedynczych lub podwójnych cudzysłowach lub bez nich (o ile wartość nie zawiera spacji).
+  W przeciwieństwie do atrybutów w postaci par nazwa-wartość istnieją atrybuty mające wpływ na
+   element poprzez samo ich zawarcie w znaczniku otwierającym[26] (np. ismap atrybut dla znacznika img[33]). </p>
+   <p><a href="https://www.olx.pl/dom-ogrod/ogrod/">Link do strony olx</a></p>
+   <p><img src="kwiaty.jpg" alt="" width="250"></p>
+   <p><a href="https://www.olx.pl/dom-ogrod/ogrod/"><img src="kwiaty.jpg" alt="" width="150"></a></p>
+
+</body>
+</html>
