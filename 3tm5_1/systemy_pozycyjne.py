@@ -1,3 +1,7 @@
+
+''' Zamiana liczby z systemu dziesiątkowego na
+ inny o podstawie 'podstawa" '''
+
 liczba = int(input('Podaj liczbę'))
 podstawa = int(input('Podaj podstawę'))
 lista = []
