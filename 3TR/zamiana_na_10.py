@@ -1,6 +1,6 @@
 ''' Zamiana na system dziesiątkowy'''
 # 1100  2^0 2^1 , 2^2, 2^3
-liczba_w_innym_systemie = [2,1,0,0]
+liczba_w_innym_systemie = [1, 2, 0, 0, 2, 0, 1]
 podstawa = int(input('Podaj podstawę'))
 liczba_10 = 0
 potega = 0
