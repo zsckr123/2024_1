@@ -14,5 +14,5 @@ else:
 
 # koniec pętli
 print("najwiekszy wspolny dzielnik to:",liczba1)
-nww = 
+nww = a * b / liczba1
 print(f"NWW liczba {a} i {b} to {nww}")
