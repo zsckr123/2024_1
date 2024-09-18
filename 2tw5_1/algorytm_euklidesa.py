@@ -1,6 +1,8 @@
 ''' Dzielimy liczba1 przez liczba2 NWD(liczba1, liczba2) '''
 liczba1 = int(input('podaj pierwszą liczbę: '))
 liczba2 = int(input('podaj drugą liczbę: '))
+a = liczba1
+b = liczba2
 
 if liczba2 == 0:
       print("NWD to:",liczba1)
@@ -12,3 +14,5 @@ else:
 
 # koniec pętli
 print("najwiekszy wspolny dzielnik to:",liczba1)
+nww = 
+print(f"NWW liczba {a} i {b} to {nww}")
