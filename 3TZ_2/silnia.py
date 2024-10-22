@@ -1,8 +1,9 @@
 def silnia(n):
+
     if n > 1:
         return n * silnia(n-1)
     return 1
-print(silnia(900))
+print(silnia(0))
 
 ''' silnia(5) = 5 * silnia(4)
 ale silnia(4) = 4 * silnia(3)
