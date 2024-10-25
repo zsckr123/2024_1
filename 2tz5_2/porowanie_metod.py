@@ -1,6 +1,6 @@
 import time
 import random
-from audioop import reverse
+
 from random import random, randint
 
 
