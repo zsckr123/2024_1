@@ -14,7 +14,7 @@ def sort_b(t):
 
 
 lista =[]
-for _ in range(2000):
+for _ in range(20000):
     liczba = random.randint(-100000,100000)
     lista.append(liczba)
 
