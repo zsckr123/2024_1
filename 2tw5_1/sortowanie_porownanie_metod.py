@@ -17,7 +17,7 @@ def sort_insert(A):
 # Sortowanie bąbelkowe
 def babelek(t):
   for i in range(len(t)-1):
-    if t[i] > t[i+1]:
+    if t[i] > t[i+1]:   # zmiana znak = zmiana trybu sortowania
       t[i], t[i+1] = t[i+1], t[i] #  przestawienie elementów
   return t
 
@@ -55,31 +55,3 @@ def lista():
 print('Lista nieposortowana')
 print(lista())
 porownanie_metod(lista())
-
-
-
-# lista =[]
-# for _ in range(10000):
-#     liczba = randint(-100000,100000)
-#     lista.append(liczba)
-# print('Lista nieposortowana ')
-# print(20*'-')
-# print(lista)
-# print('Lista posortowana. Metoda przez wstawianie')
-# print(20*'-')
-# start = time.time()
-# print(sort_insert(lista))
-# stop = time.time()
-# print('Czas sorotowania ', stop - start)
-# print('Lista posortowana. Metoda bąbelkowa')
-# print(20*'-')
-# start = time.time()
-# print(sort_b(lista))
-# stop = time.time()
-# print('Czas sorotowania ', stop - start)
-# print('Sortowanie wbudowane w Python. Metoda sorted')
-# start = time.time()
-# print(sorted(lista))
-# stop = time.time()
-# print('Czas sorotowania ', stop - start)
-
