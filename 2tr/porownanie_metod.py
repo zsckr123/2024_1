@@ -43,11 +43,12 @@ def porownanie_metod(lista):
     sorted(lista, reverse=True)
     stop = time.time()
     print('czas metody ', stop - start)
+    print(sorted(lista, reverse=True))
 
 def lista():
     lista = []
 
-    for _ in range(4000): # ilosc elementow sortowanych
+    for _ in range(8000): # ilosc elementow sortowanych
         liczba = randint(-8000,8000) #przedzial z ktorego pobieramy elementy do sortowania
         lista.append(liczba)
     return lista
