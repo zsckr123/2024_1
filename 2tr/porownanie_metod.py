@@ -33,23 +33,30 @@ def porownanie_metod(lista):
     sort_b(lista) # metoda babelkowa
     stop = time.time()
     print('czas metody ', stop - start)
+    time_buble = stop - start
     print('Metoda przez wstawianie')
     start = time.time()
     sort_insert(lista)
     stop = time.time()
     print('czas metody ', stop - start)
+    time_insert = stop-start
     print('Metoda wbudowana sorted')
     start = time.time()
     sorted(lista, reverse=True)
     stop = time.time()
     print('czas metody ', stop - start)
+    time_sorted = stop - start
     print(sorted(lista, reverse=True))
+    print('babelkowa/wstawianie ',time_buble/time_insert)
+    print('babelkowa/sorted ', time_buble / time_sorted)
+    print('wstawianie/sorted ', time_insert / time_sorted)
+
 
 def lista():
     lista = []
 
-    for _ in range(8000): # ilosc elementow sortowanych
-        liczba = randint(-8000,8000) #przedzial z ktorego pobieramy elementy do sortowania
+    for _ in range(5000): # ilosc elementow sortowanych
+        liczba = randint(-20000,2000) #przedzial z ktorego pobieramy elementy do sortowania
         lista.append(liczba)
     return lista
 
