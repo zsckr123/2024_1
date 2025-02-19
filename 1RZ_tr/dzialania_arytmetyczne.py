@@ -1,0 +1,5 @@
+a = int(input('Podaj pierwszę liczbę'))
+b = int(input('Podaj drugą liczbę'))
+print(f'Wynik dodawania {a+b}')
+print(f'Wynik odejmowania {a-b}')
+print(f'Wynik mnożenia {a*b}')
