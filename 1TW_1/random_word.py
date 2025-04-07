@@ -13,5 +13,5 @@ def szyfruj(word):
     return lista_zaszyfrowana
 
 
-print(randomword(5))
+# print(randomword(5))
 print(szyfruj(randomword(5)))
