@@ -12,6 +12,7 @@ for znak in lista:
 #
 #
 lista_zaszyfrowana =[]
+
 wyraz = input('Podaj wyraz do zaszyfrowania')
 for znak in wyraz:
     z = ord(znak)
