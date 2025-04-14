@@ -3,9 +3,9 @@
 ''' Kod ASCII  https://pl.wikipedia.org/wiki/ASCII'''
 ''' Zamiana wpisanego znaku na kod ASCII'''
 # print(ord('a'))
-lista = [1,'s']
-for znak in lista:
-    print(ord(str(znak)))
+# lista = [1,'s']
+# for znak in lista:
+#     print(ord(str(znak)))
 
 #Szyfrowanie
 
