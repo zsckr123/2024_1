@@ -1,6 +1,6 @@
 # print(chr(97))
 
-lista = [99, 116, 98, 122, 119]
+lista = [119, 97, 107, 97, 99, 106, 101]
 
 tmp = ''
 for znak in lista:
