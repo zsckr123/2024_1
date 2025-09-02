@@ -1,5 +1,0 @@
-a = int(input('PodAJ PIERWSZA liczbę ='))
-b = int(input('PodAJ drugą liczbę ='))
-print('Suma ',a+b)
-print('Rożnica ',a-b)
-print('Iloczyn ',a*b)
