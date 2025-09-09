@@ -1,6 +1,6 @@
-''' Zamiana na inny system '''
+''' Zamiana na system 10-tkowy'''
 # 1100  2^0 2^1 , 2^2, 2^3
-liczba_w_innym_systemie = [2,3,0,3,4,0,1]
+liczba_w_innym_systemie = [1, 2, 1, 2, 2, 1, 0, 2, 0]
 podstawa = int(input('Podaj podstawę'))
 liczba_10 = 0
 potega = 0
