@@ -5,3 +5,8 @@ reszta = pierwsza_liczba % druga_liczba
 dziel_calk = pierwsza_liczba // druga_liczba
 print(f'reszta z dzielenia = {reszta}')
 print(f' dzielnie całkowite={dziel_calk}')
+
+#  5 % 2 = 1  5 modulo 2  inaczej reszta z dzielenia 5 przez 2 
+# 5 // 2 - dzielenie całkowite cyfra przed kropką dziesiętną
+# 5 / 2 = 2.5 
+# 23 // 3 = 7
