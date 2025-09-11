@@ -1,1 +1,0 @@
-print('Witaj na zajęciach')
