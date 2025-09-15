@@ -9,7 +9,4 @@ print(f' dzielnie całkowite={dziel_calk}')
 #  5 % 2 = 1  5 modulo 2  inaczej reszta z dzielenia 5 przez 2 
 # 5 // 2 - dzielenie całkowite cyfra przed kropką dziesiętną
 # 5 / 2 = 2.5 
-# 5 // 2 = 2
 # 23 // 3 = 7
-# 23 / 3 = 7 reszta 2
-# 23 % 3 = 2
