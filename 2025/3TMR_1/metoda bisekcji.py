@@ -26,4 +26,8 @@ def metoda_bisekcji():
         else:
             lewy = x
     return x
-print(metoda_bisekcji())
+while True:
+    print(metoda_bisekcji())
+    q=input("Nacisnij x żeby skończyć lub dowolny przycisk dalej")
+    if q=='x':
+        break
