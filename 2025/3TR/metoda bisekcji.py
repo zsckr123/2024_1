@@ -1,5 +1,5 @@
 def f(x):
-    return (x**2)/(x**3-1)
+    return x**2-5
 
 def metoda_bisekcji():
     epsilon = abs(float(input('Podaj dokladność wartości funkcji')))
@@ -10,7 +10,7 @@ def metoda_bisekcji():
         lewy = float(input('Podaj lewy koniec przedziału'))
         prawy = float(input('Podaj prawy koniec przedziału'))
     if f(lewy) * f(prawy) > 0:
-        return "Podano błędny przedział!"
+        return "W tym  przedziale nie ma pierwiastka. Szukaj dalej!"
     if abs(f(lewy)) < epsilon:
         return lewy
     if abs(f(prawy)) < epsilon:
