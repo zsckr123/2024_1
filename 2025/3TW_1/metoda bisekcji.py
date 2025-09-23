@@ -7,16 +7,14 @@ def metoda_bisekcji():
     lewy = 0
     prawy = 0
     while lewy >= prawy:
-        lewy = float(input('Podaj lewy koniec przedziału'))
-        prawy = float(input('Podaj prawy koniec przedziału'))
+        lewy = float(input('Podaj lewy koniec przedziału='))
+        prawy = float(input('Podaj prawy koniec przedziału='))
     if f(lewy) * f(prawy) > 0:
         return "Podano błędny przedział!"
     if abs(f(lewy)) < epsilon:
-        return lewy
+        return f' znalazłem pierwiastek= {lewy}'
     if abs(f(prawy)) < epsilon:
-        return prawy
-
-
+        return f' znalazłem pierwiastek= {prawy}'
     while abs(prawy - lewy) > delta:
         x = (lewy + prawy) / 2
         if abs(f(x)) < epsilon:
@@ -26,6 +24,7 @@ def metoda_bisekcji():
         else:
             lewy = x
     return f' znalazłem pierwiastek= {x}'
+
 while True:
     print(metoda_bisekcji())
     q=input("Nacisnij x żeby skończyć lub dowolny przycisk dalej")
