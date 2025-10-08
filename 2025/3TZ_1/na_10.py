@@ -1,6 +1,6 @@
 ''' Zamiana na inny system '''
 # 1100  2^0 2^1 , 2^2, 2^3
-liczba_w_innym_systemie = [1,3,4]
+liczba_w_innym_systemie = [1,2,3]
 podstawa = int(input('Podaj podstawę'))
 liczba_10 = 0
 potega = 0
