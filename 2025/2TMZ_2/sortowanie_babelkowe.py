@@ -1,4 +1,4 @@
-import random
+import random, time
 def babelek(t):
   for i in range(len(t)-1):
     if t[i] < t[i+1]:
@@ -12,7 +12,13 @@ def sort_b(t):
     return t
 
 lista =[100,100,-200,6,500]
-# lista1 = [i for i in range(1,random.randint(1,10000))]
+lista1 = [i for i in range(-1000,random.randint(5000,100000))]
+print('lewy koniec listy' , lista1[0])
+print('prawy koniec listy' , lista1[-1])
 # print(lista1)
-# print(sorted(lista, reverse=True))
-print(sort_b(lista))
+# print(sorted(lista1, reverse=True))
+pocz = time.time()
+print(sort_b(lista1))
+koniec = time.time()
+print(koniec-pocz)
+print('ilosc elementow', len(lista1))
