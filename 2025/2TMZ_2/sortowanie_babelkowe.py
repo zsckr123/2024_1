@@ -12,7 +12,7 @@ def sort_b(t):
     return t
 
 lista =[100,100,-200,6,500]
-lista1 = [i for i in random.randint(1,10000)]
-print(lista1)
+# lista1 = [i for i in range(1,random.randint(1,10000))]
+# print(lista1)
 # print(sorted(lista, reverse=True))
 print(sort_b(lista))
