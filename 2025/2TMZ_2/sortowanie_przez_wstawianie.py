@@ -18,5 +18,5 @@ for _ in range(10000):
     lista.append(liczba)
 
 
-print(lista)
-print(sort_insert(lista))
+# print(lista)
+(sort_insert(lista))
