@@ -12,7 +12,7 @@ def sort_b(t):
     return t
 
 
-lista1 = [i for i in range(-1000,random.randint(5000,10000))]
+lista1 = [i for i in range(random.randint(-20000,-1000),random.randint(1000,2000))]
 start = time.time()
 sorted(lista1, reverse=True)
 stop = time.time()
