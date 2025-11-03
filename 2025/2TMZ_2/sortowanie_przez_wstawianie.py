@@ -13,7 +13,7 @@ def sort_insert(A):
     print(f'Czas sortowania {delta}')
     return A
 lista = []
-for _ in range(20000):
+for _ in range(1000):
     liczba = random.randint(-100000,100000)
     lista.append(liczba)
 
